@@ -1,3 +1,31 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/* Top Title section */
+.title-section {
+  margin-top: 4rem;
+}
+.title-section__title,
+.title-section__paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-section__title {
+  color: hsl(234, 12%, 34%);
+  font-size: 34px;
+}
+.title-section__title__first-part {
+  font-weight: 200;
+}
+.title-section__title__second-part {
+  font-weight: 600;
+}
+.title-section__paragraph {
+  font-weight: 200;
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+}
 /* Attribution section */
 .attribution {
   font-size: 11px;
