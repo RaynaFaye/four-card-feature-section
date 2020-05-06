@@ -1,9 +1,11 @@
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 98%);
 }
 /* Top Title section */
 .title-section {
   margin-top: 4rem;
+  text-align: center;
 }
 .title-section__title,
 .title-section__paragraph {
@@ -33,4 +35,18 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Medi Queries */
+@media all and (max-width: 504px) {
+  .title-section {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .title-section__title {
+    font-size: 26px;
+  }
+  .title-section__paragraph {
+    display: block;
+  }
 }
